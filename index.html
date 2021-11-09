@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- BOOTSTRAP SCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400;500;600;700;800;900&family=Mada:wght@200;300;400;500;600;700;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- CDN FOR ICONS -->
+    <link rel="icon" href="images/icons8-portfolio-80.png">
+    <!--  CDN OF ANIMATION ON SCROLL -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav id="navbar" class="hamburger navbar navbar-expand-lg navbar-dark ">
+
+        <img class="navbar-brand" src="images/icons8-naruto-64.png" alt="logo">
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="box navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="#ABOUT">About</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="#SKILLS">Skills</a>
+                </li>
+                <li class="nav-item dropdown px-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="https://nitinsingh08.github.io/TindogApp/" target="_blank">Product Tour</a>
+                        <a class="dropdown-item" href="https://nitinsingh08.github.io/Restaurant-Webpage/" target="_blank">Restaurant Page</a>
+                        <a class="dropdown-item" href="https://nitinsingh08.github.io/Good-Vibes-form/" target="_blank">Form Page</a>
+                    </div>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="#CONTACT">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- HERO-SECTION -->
+
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-start">
+            <div class=" col col-lg-4 col-md-12 col-sm-10 align-self-center description" data-aos="zoom-in" data-aos-duration="1200">
+                <h1>Hi! I'm Nitin</h1>
+                <h4>Front End Developer</h4>
+                <p>I’m a Front-End Developer based in Delhi. I have a serious passion for UI effects, animations and creating intuitive, dynamic user experiences. </p>
+                <a href="#PROJECTS" type="button" class="hero-btn btn btn-outline btn-default px-3">view my work</a>
+            </div>
+            <div class="col col-lg-4 col-md-12 col-sm-10" data-aos="zoom-in" data-aos-duration="1200">
+                <img class="home-image " src="images/Resume-bro.png" alt="illustration">
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT-SECTION -->
+    <div id="ABOUT" class=" about-section container-fluid ">
+        <div class="row justify-content-around align-items-center ">
+            <div class="col col-lg-5 col-md-12 col-sm-12 " data-aos="slide-up" data-aos-duration="1200">
+                <img class="home-image  " src="images/About me-pana.png " alt="illustration ">
+            </div>
+            <div class="col col-lg-5 col-md-12 col-sm-12 description align-self-center " data-aos="slide-up " data-aos-duration="1200 ">
+                <h1 class="about-header ">About me !</h1>
+                <p>Hello! My name is Nitin and I enjoy creating things that live on the internet.I created some projects while i was learning web development and I can make the same for you.Your website is the center of your digital ecosystem, like a brick
+                    and mortar location, the experience matters once a customer enters, just as much as the perception they have of you before they walk through the door.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS SECTION (have not done the css yet!!!) -->
+    <div id="SKILLS" class=" skills-section container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-5 col-sm-12 align-self-center skill-dpt " data-aos="slide-up" data-aos-duration="1200 ">
+                <h1>Top Skills</h1>
+                <p>It is possible to fly without motors, but not without knowledge and skill.</p>
+
+            </div>
+        </div>
+        <div class="row justify-content-center ">
+            <div class="col-lg-5 col-sm-12 align-self-center ">
+                <h6>HTML5</h6>
+                <div class="progress ">
+                    <div class="progress-bar " role="progressbar " aria-valuenow="25 " aria-valuemin="0 " aria-valuemax="100 " style="width: 85% "></div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-sm-12 align-self-center ">
+                <h6>CSS3</h6>
+                <div class="progress ">
+                    <div class="progress-bar " role="progressbar " aria-valuenow="25 " aria-valuemin="0 " aria-valuemax="100 " style="width: 75% "></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-self-center ">
+            <div class="col-lg-5 col-sm-12 ">
+                <h6>Javacript</h6>
+                <div class="progress ">
+                    <div class="progress-bar " role="progressbar " aria-valuenow="25 " aria-valuemin="0 " aria-valuemax="100 " style="width: 45% "></div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-sm-12 align-self-center ">
+                <h6>Bootstrap</h6>
+                <div class="progress ">
+                    <div class="progress-bar " role="progressbar " aria-valuenow="25 " aria-valuemin="0 " aria-valuemax="100 " style="width: 95% "></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-self-center ">
+            <div class="col-lg-5 col-sm-12 ">
+                <h6>Ui Design</h6>
+                <div class="progress ">
+                    <div class="progress-bar" role="progressbar " aria-valuenow="25 " aria-valuemin="0 " aria-valuemax="100 " style="width: 65% "></div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-sm-12 align-self-center">
+                <h6>React</h6>
+                <div class="progress ">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="25 " aria-valuemin="0 " aria-valuemax="100 " style="width: 35% "></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECTS-SECTION  -->
+    <div id="PROJECTS" class="project-section container-fluid">
+        <h1>PROJECTS</h1>
+
+        <div class="first-row row justify-content-md-center align-items-center" data-aos="zoom-in" data-aos-duration="1200">
+            <div class="showcase col-lg-3 col-sm-12 align-self-center">
+                <div class="card text-center mx-auto product-container " style="width: 18rem;">
+                    <img class="card-img-top product-img" src="images/Product tour-bro.png" alt="Card image cap ">
+
+                    <a href="https://nitinsingh08.github.io/tindog-app/" target="_blank" class="btn btn-outline product-btn">View Project</a>
+                </div>
+                <p class="product-name ">Product Webpage</p>
+            </div>
+            <div class="showcase col-lg-3 col-sm-12 align-self-center">
+                <div class="card text-center mx-auto product-container" style="width:18rem;">
+                    <img class="card-img-top product-img" src="images/Eating together-pana.png" alt="Card image cap ">
+
+                    <a href="https://nitinsingh08.github.io/Restaurant-Webpage/" target="_blank" class="btn btn-outline product-btn ">View Project</a>
+                </div>
+                <p class="product-name">Restaurant Webpage</p>
+            </div>
+
+            <div class="showcase col-lg-3 col-sm-4 align-self-center">
+                <div class="card text-center mx-auto product-container" style="width: 18rem;">
+                    <img class="card-img-top product-img" src="images/Japan-rafiki.png " alt="Card image cap ">
+
+                    <a href="https://nitinsingh08.github.io/Parallax-page/" target="_blank" class="btn btn-outline product-btn ">View Project</a>
+                </div>
+                <p class="product-name">Parallax Webpage</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center" data-aos="zoom-in" data-aos-duration="1200">
+            <div class="showcase col-lg-3 col-sm-12 align-self-center">
+                <div class="card text-center mx-auto product-container" style="width:18rem;">
+                    <img class="card-img-top product-img" src="images/Traveling-pana.png " alt="Card image cap ">
+
+                    <a href="https://nitinsingh08.github.io/Tourism-page/ " target="_blank " class="btn btn-outline product-btn ">View Project</a>
+                </div>
+                <p class="product-name">Tourism Webpage</p>
+            </div>
+            <div class="showcase col-lg-3 col-sm-4 align-self-center">
+                <div class="card text-center mx-auto product-container" style="width: 18rem; ">
+                    <img class="card-img-top product-img " src="images/Online report-bro.png " alt="Card image cap">
+
+                    <a href="https://nitinsingh08.github.io/Good-Vibes-form/" target="_blank" class="btn btn-outline product-btn ">View Project</a>
+                </div>
+                <p class="product-name ">Form Webpage</p>
+            </div>
+            <div class="showcase col-lg-3 col-sm-4 align-self-center">
+                <div class="card text-center mx-auto product-container" style="width: 18rem;">
+                    <img class="card-img-top product-img " src="images/Product tour-bro.png " alt="Card image cap ">
+
+                    <a href="https://nitinsingh08.github.io/Tribute-page/" target="_blank" class="btn btn-outline product-btn ">View Project</a>
+                </div>
+                <p class="product-name">Tribute Webpage</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FEATURES-SECTION -->
+    <div class="features-section container-fluid">
+        <div class="row justify-content-center align-items-center" data-aos="slide-up" data-aos-duration="1200">
+            <div class="col-lg-3 col-sm-12 align-self-center text-center">
+                <a><img class="feature-icon " src="images/icons8-responsive-50.png " alt="logo "></a>
+                <h4>Responsive Design</h4>
+                <p>My layouts will work on any device, big or small. </p>
+            </div>
+            <div class="col-lg-3 col-sm-12 align-self-center text-center">
+                <a><img class="feature-icon " src="images/icons8-safety-64.png " alt="logo "></a>
+                <h4>Safe & Secure</h4>
+                <p>Secure,Fast load times and lag free interaction, my highest priority. </p>
+            </div>
+            <div class="col-lg-3 col-m-12 align-self-center text-center">
+                <a><img class="feature-icon" src="images/icons8-web-design-64.png " alt="logo "></a>
+                <h4>Dynamic</h4>
+                <p>Strong preference for easy to use, intuitive UX/UI. </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CONTACT-SECTION -->
+    <div id="CONTACT" class="contact-section container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-4 col-sm-12 align-self-center ">
+                <h2>CONTACT</h2>
+                <p>Have a question or want to work together?</p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center ">
+            <div class="col-lg-5 col-sm-12" data-aos="zoom-in" data-aos-duration="1200">
+                <form action="https://formsubmit.co/nitinsingh21345@gmail.com " method="POST ">
+                    <div class="form-group">
+                        <input type="hidden" name="_subject " value="New Email Received">
+                        <input type="hidden" name="_captcha " value="false">
+                        <label for="formGroupExampleInput ">Name</label>
+                        <input type="text" name="name " class="form-control" id="formGroupExampleInput " placeholder="Your Name.... " required>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Email</label>
+                        <input type="text " name="email" class="form-control" id="formGroupExampleInput2 " placeholder="Email address... " required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1 ">Message</label>
+                        <textarea class="form-control" name="message " id="exampleFormControlTextarea1 " rows="4 " placeholder="Your Message... "></textarea>
+                    </div>
+                    <button class="btn btn-outline contact-btn ">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER-SECTION -->
+    <div class="footer-section container-fluid ">
+        <a class="icon" href="https://github.com/Nitinsingh08 " target="_blank "><i class="fab fa-github fa-2x "></i></a>
+        <a class="icon" href="https://www.instagram.com/creatorszone04/ " target="_blank "><i class="fab fa-instagram fa-2x "></i></a>
+        <a class="icon" href="https://www.facebook.com/creatorszone04/ " target="_blank "><i class="fab fa-facebook fa-2x "></i></a>
+        <p class="trademark ">Nitin Singh © 2021</p>
+    </div>
+    <!-- ANIMATE ON SCROLL BEHAVIOUR -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
+</body>
+
+</html>

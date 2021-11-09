@@ -1,0 +1,313 @@
+/* NAVIGATION BAR */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hamburger {
+    background-color: #16161a;
+    font-family: "Catamaran", sans-serif;
+    font: weight 600px;
+}
+
+.hamburger a {
+    color: #fffffe !important;
+    padding: 15px;
+}
+
+.hamburger a:hover {
+    color: #7f5af0 !important;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+    height: 10vh;
+}
+
+.dropdown-menu {
+    background-color: #16161a !important;
+}
+
+
+/* HERO-SECTION */
+
+.description h1 {
+    font-family: "Mada", sans-serif;
+    font-weight: 700;
+    color: #fffffe;
+}
+
+.description h4 {
+    font-family: "Catamaran", sans-serif;
+    color: #fffffe;
+}
+
+.description p {
+    color: #94a1b2;
+}
+
+.description p,
+.hero-btn {
+    font-family: "Nunito", sans-serif;
+}
+
+.hero-btn {
+    background-color: #7f5af0;
+    color: #fffffe;
+}
+
+.hero-btn:hover {
+    color: #16161a;
+}
+
+@media all and (max-width: 600px) {
+    .description {
+        text-align: center;
+    }
+    .navbar-brand {
+        height: 7vh;
+    }
+}
+
+.home-image {
+    height: 500px;
+    width: 500px;
+}
+
+@media all and (max-width: 600px) {
+    .home-image {
+        height: 380px;
+        max-width: 380px;
+    }
+}
+
+.container-fluid {
+    background-color: #16161a;
+}
+
+
+/* ABOUT-SECTION */
+
+.about-section h1 {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 600;
+}
+
+.about-section p {
+    font-family: "Nunito", sans-serif;
+}
+
+
+/* SKILLS SECTION */
+
+
+/* HAVE NOT ADDED STYLES IN IT WILL ADD IT LATER */
+
+.skills-section h1 {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #fffffe;
+}
+
+.skill-dpt {
+    text-align: center;
+    color: #94a1b2;
+}
+
+.progress {
+    height: 13px;
+    border-radius: 10px;
+}
+
+.skills-section h6 {
+    color: #fffffe;
+}
+
+.skills-section h6,
+p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+
+.skills-section p {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.col-lg-5 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.progress-bar {
+    background-color: #7f5af0 !important;
+}
+
+
+/* PROJECT-SECTION */
+
+.project-section h1 {
+    text-align: center;
+    font-family: "Mada", sans-serif;
+    font-weight: 700;
+    padding-bottom: 60px;
+    color: #fffffe;
+}
+
+.project-section {
+    background-color: #16161a;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.project-section p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+
+.product-btn {
+    font-family: "Nunito", sans-serif;
+    background-color: #7f5af0;
+    color: #fffffe;
+}
+
+.product-btn:hover {
+    color: #16161a;
+}
+
+.product-container {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    transition: 0.8s;
+}
+
+.product-container:hover .product-img {
+    filter: blur(4px) brightness(90%);
+    box-shadow: 0 0 10px grey;
+}
+
+.product-container :not(.product-img) {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    top: 50%;
+    left: 28%;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+.product-container:hover :not(.product-img) {
+    opacity: 1;
+}
+
+.product-container:hover .product-name {
+    top: 25%;
+    position: absolute;
+    text-align: center;
+}
+
+
+/* @media all and (max-width: 600px) {
+    .showcase {
+        /* padding-bottom: 20px; */
+
+.first-row {
+    padding-bottom: 30px;
+}
+
+.product-name {
+    color: #94a1b2;
+    padding-top: 5px;
+}
+
+.showcase {
+    text-align: center;
+}
+
+
+/* FEATURES-SECTION */
+
+.features-section h4 {
+    font-family: "Catamaran", sans-serif;
+    color: #fffffe;
+}
+
+.features-section p {
+    color: #94a1b2;
+}
+
+.features-section {
+    padding-bottom: 100px;
+}
+
+.feature-icon {
+    padding-bottom: 20px;
+    height: 70px;
+}
+
+.features-icon:hover {
+    color: #7f5af0;
+}
+
+
+/* CONTACT-SECTION */
+
+.contact-section h2 {
+    font-family: "Catamaran", sans-serif;
+    text-align: center;
+    color: #fffffe;
+}
+
+.contact-section p {
+    text-align: center;
+    color: #94a1b2;
+}
+
+.contact-section label {
+    color: #94a1b2;
+}
+
+.contact-section {
+    font-family: "Nunito", sans-serif;
+}
+
+.contact-btn {
+    background-color: #7f5af0;
+    color: #fffffe;
+}
+
+
+/* footer section */
+
+.footer-section {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon {
+    padding: 15px;
+}
+
+.trademark {
+    padding: 30px 0px;
+    margin: 0;
+    color: #94a1b2;
+}
+
+.far,
+.fab {
+    color: white;
+}
+
+.icon :hover {
+    color: #7f5af0;
+}

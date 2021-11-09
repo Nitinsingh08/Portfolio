@@ -1,0 +1,25 @@
+PORTFOLIO 
+Animated illustration in UI
+Add css hover effects on buttons and other things 
+add hover effects on navbar icons and buttons
+Pages : Nav bar items 
+Home page 
+About 
+skills 
+projects 
+contact me 
+add drop down menu in projects in nav bar 
+add smooth scrolling effects
+fonts : 
+header -karma
+sub-header -nunito
+paragraph- amiko 
+
+Skills i will add in the portfolio :
+fix the project section problem
+refactor the code in the end
+
+!important means that this style is going to apply and it override the custom bootstrap class.
+
+
+
