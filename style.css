@@ -82,8 +82,8 @@ html {
 
 @media all and (max-width: 600px) {
     .home-image {
-        height: 380px;
-        max-width: 380px;
+        height: 350px;
+        max-width: 350px;
     }
 }
 
